@@ -9,7 +9,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>View Product</title>
     </head>
-    <body>
+    <body style="background-color: wheat;">
         <c:import url="/header.jsp"></c:import>
 
         <%
@@ -44,7 +44,7 @@
                 <input type="hidden" value="${curr.getId()}" name="prodId">
                
                 <p>${curr.getDescription()}</p>
-                <h4><span><strong>Rs&nbsp</strong></span>${curr.getPrice()}</h4>                
+                <h4><span><strong>₹&nbsp</strong></span>${curr.getPrice()}</h4>                
                 <button type="submit" class="btn btn-danger">Add To Cart</button>
                 
                     </div>
@@ -60,7 +60,7 @@
                     <br>
                     <br>
                       <div class="jumbotron" style="color:white;background-color: black; margin-top: 60px; margin-bottom: 0;">
-            <p>Welcome to Ecom</p>
+            <p><center><b>@Copyright 1999-2019 by Reference Data. All Rights Reserved.Powered by VMM.</b></center></p>
         </div>
     </body>
 </html>

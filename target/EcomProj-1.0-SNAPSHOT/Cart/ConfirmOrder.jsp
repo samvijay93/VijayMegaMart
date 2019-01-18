@@ -17,7 +17,7 @@
 
     </head>
 
-    <body>
+    <body style="background-color: wheat;">
 
        <c:import url="/header.jsp"></c:import>
 
@@ -36,11 +36,12 @@
 
 
         <div class="container">
-            <h1>Thank You</h1>
+            <h1>Thank You.........</h1>
+            <h1>Your Order Is Confirmed</h1>
             <p>Your Order will be deliver in 3-4 Working Days</p>
             
             <table class="table">
-                <thead style="background-color: green;color:white;">
+                <thead style="background-color: orange;color:white;">
                     <tr>
                         <td>Image</td>
                         <td>Product Description</td>
@@ -98,7 +99,7 @@
         <br>
         <br>
         <div class="jumbotron" style="color:white;background-color: black; margin-top: 60px; margin-bottom: 0;">
-            <p>Welcome to Ecom</p>
+            <p><center><b>@Copyright 1999-2019 by Reference Data. All Rights Reserved.Powered by VMM.</b></center></p>
         </div>
     </body>
 </html>

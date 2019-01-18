@@ -17,7 +17,7 @@
 
     </head>
 
-    <body>
+    <body style="background-color: wheat;">
 
         <c:import url="/header.jsp"></c:import>
 

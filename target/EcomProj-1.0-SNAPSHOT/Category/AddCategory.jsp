@@ -1,4 +1,4 @@
-<%@page import="com.mycompany.ecomproj.model.User"%>
+ <%@page import="com.mycompany.ecomproj.model.User"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -33,7 +33,7 @@
                   
                 %>
                 
-                ${userObject}
+                
         <c:choose>
 
             <c:when test="${not empty userObject}">

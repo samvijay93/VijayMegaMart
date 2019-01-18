@@ -14,7 +14,7 @@
 
     </head>
 
-    <body>
+    <body style="background-color: wheat;">
 
         <c:import url="/header.jsp"></c:import>
 
@@ -30,7 +30,7 @@
             <h4>Cart Items</h4>
 
             <table class="table">
-                <thead style="background-color:green ; color: white;">
+                <thead style="background-color:darkviolet ; color: white;">
                     <tr>
                         <td>Image</td>
                         <td>Product Description</td>
@@ -72,7 +72,7 @@
         <br>
         <br>
         <div class="jumbotron" style="color:white;background-color: black; margin-top: 60px; margin-bottom: 0;">
-            <p>Welcome to Ecom</p>
+            <p><center><b>@Copyright 1999-2019 by Reference Data. All Rights Reserved.Powered by VMM.</b></center></p>
         </div>
     </body>
 </html>

@@ -12,7 +12,7 @@
 
         <c:import url="/header.jsp"></c:import>
         </head>
-        <body style="text-align: center">
+        <body style="background-color: wheat;">
 
         <%
       
@@ -80,7 +80,7 @@
                 <input type="hidden" class="form-control" name="userid" value="${param.uid}" >
                 <input type="text" class="form-control" name="shipto"  value="${object.getShipTo()}" ><br>
                 <input type="text" class="form-control" name="billto"  value="${object.getBillTo()}"><br>
-                <button class="btn btn-success" type="submit">Update</button><br>
+                <center> <button class="btn btn-success" type="submit">Submit</button><br> </center>
 
             </form>
 
@@ -93,6 +93,6 @@
 
         </div>
                 <br>
-                <a class="btn btn-danger" href="ViewInvoice.jsp">View Order Summary</a>
+        <center><a class="btn btn-danger" href="ViewInvoice.jsp">View Order Summary</a></center>
     </body>
 </html>

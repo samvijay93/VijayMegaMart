@@ -15,7 +15,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Update Product</title>
     </head>
-    <body>
+    <body style="background-color: wheat;">
         <%
     
         User u = (User)request.getSession().getAttribute("userObject");
